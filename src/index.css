@@ -1,0 +1,64 @@
+.calendar {
+  margin-top: 100px;
+  margin-left: 50px;
+  display: inline-flex;
+}
+
+.month-table {
+  width: 700px;
+  height: 450px;
+}
+
+.month {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 150px;
+  height: 150px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 150px;
+  cursor: pointer;
+}
+
+.month:hover {
+  box-shadow: inset 0 0 5px #000;
+}
+
+.month-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.user-table {
+  text-align: center;
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+.user-table table {
+  width: 100%;
+  font-size: 14px;
+  font: Arial;
+  color: black;
+}
+
+.user-table table thead {
+  background-color: #f6f6f6;
+  font: 700 16px Arial!important;
+}
+
+.user-table table td {
+  padding: 5px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.user-table table td:first-child {
+  border-left: none;
+}
